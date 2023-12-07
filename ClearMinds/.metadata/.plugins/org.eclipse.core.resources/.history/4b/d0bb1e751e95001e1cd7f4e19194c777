@@ -1,0 +1,17 @@
+package com.krakedev;
+/*
+ * Comments
+ * 
+ */
+
+public class TestPersona {
+
+	public static void main(String[] args) {
+		//Test class Person
+		Persona persona; //Declarar una varible de tipo Persona
+		persona = new Persona(); //Intaciar la clase
+		System.out.println("nombre" + persona.nombrePersona);
+		
+	}
+
+}
