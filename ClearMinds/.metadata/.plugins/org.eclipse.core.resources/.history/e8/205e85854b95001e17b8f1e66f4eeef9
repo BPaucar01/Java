@@ -1,0 +1,25 @@
+package com.krakedev;
+
+public class TestRectangulo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int area1;
+		int area2;
+		
+		Rectangulo rectangulo1 = new Rectangulo();
+		rectangulo1.base = 10;
+		rectangulo1.altura = 5;
+		
+		Rectangulo rectangulo2 = new Rectangulo();
+		rectangulo2.altura = 8;
+		rectangulo2.base = 10;
+		
+		area1 = rectangulo1.calcularArea();
+		area2 = rectangulo2.calcularArea();
+		
+		System.out.println("El area del rectangulo 1 es: " + area1);
+		System.out.println("El area del rectangulo 2 es: " + area2);
+	}
+
+}
