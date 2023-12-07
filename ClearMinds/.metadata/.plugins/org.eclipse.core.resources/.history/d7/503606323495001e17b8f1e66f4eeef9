@@ -1,0 +1,29 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculadora calculadora = new Calculadora();
+		
+		//Llamar a los métodos de Calculadora
+		int resultadoSuma = calculadora.sumar(5,10);
+		double resultadoResta = calculadora.restar(7, 3);
+		double resultadoMultiplicacion = calculadora.multiplicar(5, 7);
+		double resultadoDivision = calculadora.dividir(200, 5);
+		
+		
+		//Imprimir los resultados
+		System.out.println("Resultado de la suma: " +resultadoSuma);
+		System.out.println("Resultado de la resta: "+ resultadoResta);
+		System.out.println("Resultado de la multiplicación: "+ resultadoMultiplicacion);
+		System.out.println("Resultado de la división: "+ resultadoDivision);
+		System.out.println("-----------------------------------------------");
+		System.out.println();
+		calculadora.mostrarResultado();
+		
+		
+		
+	}
+
+}

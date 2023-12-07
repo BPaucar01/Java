@@ -1,0 +1,14 @@
+package com.krakedev;
+
+public class TestCalculadora {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Calculadora calculadora = new Calculadora();
+		
+		//Llamar a los métodos de Calculadora
+		calculadora.sumar(5,10);
+		calculadora.restar(7, 3);
+	}
+
+}
