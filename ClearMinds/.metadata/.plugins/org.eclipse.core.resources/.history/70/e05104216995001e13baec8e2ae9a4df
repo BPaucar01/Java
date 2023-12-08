@@ -1,0 +1,8 @@
+package com.krakedev;
+
+public class Auto {
+	//Atributos de la clase auto
+	private String marca;
+	private int anio;
+	private double precio;
+}

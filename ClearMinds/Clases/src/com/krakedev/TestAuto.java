@@ -10,27 +10,27 @@ public class TestAuto {
 		Auto auto2 = new Auto();
 		
 		//Modificar los atributos del objeto auto1
-		auto1.marca = "KIA";
-		auto1.anio = 2019;
-		auto1.precio = 17596.99;
+		auto1.setMarca("KIA");
+		auto1.setAnio(2019);
+		auto1.setPrecio(17596.99);
 		
 		//Modificar los atributos del objeto auto2
-		auto2.marca = "TOYOTA";
-		auto2.anio = 2010;
-		auto2.precio = 9596.99;
+		auto2.setMarca("TOYOTA");
+		auto2.setAnio(2010);
+		auto2.setPrecio(9596.99);
 		
 		//Imprimir los atributos de los objetos
 		System.out.println("********Auto 1*********");
-		System.out.println("Marca: " + auto1.marca);
-		System.out.println("Año: " + auto1.anio);
-		System.out.println("Precio: $"+ auto1.precio);
+		System.out.println("Marca: " + auto1.getMarca());
+		System.out.println("Año: " + auto1.getAnio());
+		System.out.println("Precio: $"+ auto1.getPrecio());
 		
 		System.out.println("=========================");
 		
 		System.out.println("********Auto 2*********");
-		System.out.println("Marca: " + auto2.marca);
-		System.out.println("Año: " + auto2.anio);
-		System.out.println("Precio: $"+ auto2.precio);
+		System.out.println("Marca: " + auto2.getMarca());
+		System.out.println("Año: " + auto2.getMarca());
+		System.out.println("Precio: $"+ auto2.getPrecio());
 	}
 
 }

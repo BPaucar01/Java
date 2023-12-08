@@ -13,31 +13,31 @@ public class TestPersona {
 		Persona persona2 = new Persona();
 		
 		//Acceder a los atributos de persona
-		System.out.println("nombre: " + persona.nombrePersona);
-		System.out.println("edad: "+ persona.edadPersona);
-		System.out.println("estatura: " +persona.estaturaPersona);
+		System.out.println("nombre: " + persona.getNombrePersona());
+		System.out.println("edad: "+ persona.getEdadPersona());
+		System.out.println("estatura: " +persona.getEdadPersona());
 		System.out.println("---------------------------------------");
 
 		//Modificar los atributos de persona
-		persona.nombrePersona = "Bryan";
-		persona.edadPersona = 23;
-		persona.estaturaPersona = 1.65;
+		persona.setNombrePersona("Bryan");
+		persona.setEdadPersona(23);;
+		persona.setEstaturaPersona(1.65);;
 		
 		//Acceder a los atributos de persona
-		System.out.println("nombre: " + persona.nombrePersona);
-		System.out.println("edad: "+ persona.edadPersona);
-		System.out.println("estatura: " +persona.estaturaPersona);
+		System.out.println("nombre: " + persona.getNombrePersona());
+		System.out.println("edad: "+ persona.getEdadPersona());
+		System.out.println("estatura: " +persona.getEdadPersona());
 		System.out.println("---------------------------------------");
 		
 		//Modificar atributos de persona 2
-		persona2.nombrePersona = "Dayana";
-		persona2.edadPersona = 21;
-		persona2.estaturaPersona = 1.50;
+		persona2.setNombrePersona("Dayana");;
+		persona2.setEdadPersona(21);
+		persona2.setEstaturaPersona(1.50);
 		
 		// Acceder a los atributos de persona2
-		System.out.println("nombre: "+ persona2.nombrePersona);
-		System.out.println("edad: "+ persona2.edadPersona);
-		System.out.println("estatura: " + persona2.estaturaPersona);
+		System.out.println("nombre: "+ persona2.getNombrePersona());
+		System.out.println("edad: "+ persona2.getEdadPersona());
+		System.out.println("estatura: " + persona2.getEstaturaPersona());
 		
 	}
 

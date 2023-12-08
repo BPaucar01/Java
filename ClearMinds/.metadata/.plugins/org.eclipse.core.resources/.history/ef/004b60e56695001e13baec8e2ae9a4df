@@ -1,0 +1,14 @@
+package com.krakedev;
+
+public class TestFecha {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fecha fecha = new Fecha();
+		
+		fecha.anio = 2023;
+		fecha.mes = 7;
+		fecha.dia = 13;
+	}
+
+}
