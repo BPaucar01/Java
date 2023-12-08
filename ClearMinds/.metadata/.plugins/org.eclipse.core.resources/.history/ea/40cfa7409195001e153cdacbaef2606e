@@ -6,15 +6,12 @@ public class Persona {
 	private double estaturaPersona;
 	
 	public Persona(String nombrePersona, int edadPersona, double estaturaPersona) {
+		super();
 		this.nombrePersona = nombrePersona;
 		this.edadPersona = edadPersona;
 		this.estaturaPersona = estaturaPersona;
 	}
 	
-	public Persona(String nombrePersona) {
-		this.nombrePersona = nombrePersona;
-	}
-
 	public Persona() {
 		System.out.println("Ingreso al constructor vacio");
 	}

@@ -10,22 +10,10 @@ public class TestPersona {
 		//Test class Person
 		Persona persona; //Declarar una varible de tipo Persona
 		persona = new Persona(); //Intaciar la clase
-		Persona persona2 = new Persona();
-		Persona persona3 = new Persona("Pablo");
-		Persona persona4 = new Persona("Luis", 12, 1.60);
+		Persona persona2 = new Persona("Pablo");
+		Persona persona3 = new Persona("Luis", 12, 1.60);
 		
 		//Acceder a los atributos de persona
-		System.out.println("---------------------------------------");
-		System.out.println("nombre: " + persona3.getNombrePersona());
-		System.out.println("edad: "+ persona3.getEdadPersona());
-		System.out.println("estatura: " +persona3.getEdadPersona());
-		System.out.println("---------------------------------------");
-		
-		System.out.println("nombre: " + persona4.getNombrePersona());
-		System.out.println("edad: "+ persona4.getEdadPersona());
-		System.out.println("estatura: " +persona4.getEdadPersona());
-		System.out.println("---------------------------------------");
-		
 		System.out.println("nombre: " + persona.getNombrePersona());
 		System.out.println("edad: "+ persona.getEdadPersona());
 		System.out.println("estatura: " +persona.getEdadPersona());

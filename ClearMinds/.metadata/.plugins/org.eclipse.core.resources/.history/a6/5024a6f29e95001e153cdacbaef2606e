@@ -8,10 +8,13 @@ public class TestCuadrado {
 		double area2, perimetro2;
 		double area3, perimetro3;
 		
-		Cuadrado cuadrado = new Cuadrado(5);
-		Cuadrado cuadrado2 = new Cuadrado(10);
-		Cuadrado cuadrado3 = new Cuadrado(12);
+		Cuadrado cuadrado = new Cuadrado();
+		Cuadrado cuadrado2 = new Cuadrado();
+		Cuadrado cuadrado3 = new Cuadrado();
 		
+		cuadrado.setLado(5);
+		cuadrado2.setLado(10);
+		cuadrado3.setLado(12);
 		
 		area = cuadrado.calcularArea();
 		perimetro = cuadrado.calcularPerimetro();
