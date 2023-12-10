@@ -16,13 +16,21 @@
     <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Producto"/>
     <fullyQualifiedTypeName name="com.cmc.repaso.entidades.Item"/>
     <fullyQualifiedTypeName name="com.krakedev.composicion.AdminProducto"/>
-    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
     <fullyQualifiedTypeName name="com.krakedev.composicion.Producto"/>
     <fullyQualifiedTypeName name="com.krakedev.composicion.Persona"/>
     <fullyQualifiedTypeName name="com.krakedev.composicion.Direccion"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminTelefono"/>
     <fullyQualifiedTypeName name="com.cmc.directorio.entidades.Telefono"/>
+    <fullyQualifiedTypeName name="java.nio.charset.CoderMalfunctionError"/>
     <fullyQualifiedTypeName name="com.cmc.directorio.entidades.Contacto"/>
+    <fullyQualifiedTypeName name="com.cmc.directorio.entidades.AdminContactos"/>
+    <fullyQualifiedTypeName name="com.clearminds.maquina.MaquinaDulces"/>
+    <fullyQualifiedTypeName name="com.clearminds.componentes.Producto"/>
+    <fullyQualifiedTypeName name="com.krakedev.colecciones.test.AdminPersonas"/>
+    <fullyQualifiedTypeName name="com.krakedev.colecciones.test.Persona"/>
+    <fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
+    <fullyQualifiedTypeName name="javax.swing.DefaultBoundedRangeModel"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="com.clearminds.componentes.Celda"/>
 </qualifiedTypeNameHistroy>
