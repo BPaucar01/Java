@@ -35,6 +35,7 @@ public class TestBuscarMenores {
 		
 		productosMenores = maquina.buscarMenores(limite);
 		
+		System.out.println("Productos menores:" + productosMenores.size());
 		for(Producto elemento : productosMenores) {
 			System.out.println("+----------------------------------+");
 			System.out.println("|          DatosProducto           |");
